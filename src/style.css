@@ -1,0 +1,122 @@
+body
+{
+  background-image: linear-gradient(red, orange, yellow, green, blue, violet)}
+
+#welcome-section
+{
+  width: auto;
+  height: auto;
+  font-family: "roboto", sans-serif;
+  font-size: 50px;
+  font-style: bold;
+  text-align: center;
+}
+h2
+{
+  width: auto;
+  font-family: "roboto", sans-serif;
+  font-size: 50px;
+  font-style: bold;
+  text-align: center;
+}
+
+h3
+{
+  width: auto;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+}
+
+#projects
+{
+  width: auto;
+  font-family: "roboto", sans-serif;
+  font-size: 60px;
+  font-style: bold;
+  text-align: center;
+}
+
+.project-tile
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-row: auto auto;
+  padding: 30px;
+  margin: auto;
+  align: right;
+  align-content: space-evenly;
+}
+#div-projects
+{outline: 1px dashed white;  height: auto;
+  width: 90%;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+  color: black;
+}
+
+a
+{
+ height: auto;
+  width: 90%;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+  color: black;
+}
+
+.page-preview
+{
+  width: 500px;
+  height: 300px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+#navbar
+{
+  background-color: rgba(255,255,255,0.5);
+  float: top;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "roboto", sans-serif;
+  font-style: bold;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
+}
+
+.navbar-a
+{
+  padding: 0px 0px 0px 40px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#contact {
+  margin: auto;
+  align: center;
+  display: flex;
+}
+
+
+/*REVER TODAS @media*/
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
